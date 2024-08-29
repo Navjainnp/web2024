@@ -1,0 +1,14 @@
+h1{
+    font-family: sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: #2d1194; /* Add a dark gray color */
+    margin-bottom: 20px; /* Add some space below the heading */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
