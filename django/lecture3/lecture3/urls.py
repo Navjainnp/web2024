@@ -20,5 +20,6 @@ from django.urls import include, path # add include here in path, since we are u
 urlpatterns = [
     path('admin/', admin.site.urls), #default path already given to us.
     path('hello/', include('hello.urls')), #added path for our app hello.
-    path('newyear/', include('newyear.urls'))
+    path('newyear/', include('newyear.urls')),
+    path('tasks/', include('tasks.urls'))
 ]
